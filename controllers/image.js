@@ -1,3 +1,4 @@
+const fetch = require('node-fetch');
 const MODEL_ID = 'face-detection';
 
 const returnRequestOptions = (imageURL) => {

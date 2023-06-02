@@ -3,7 +3,7 @@ const MODEL_ID = 'face-detection';
 const returnRequestOptions = (imageURL) => {
   
   // FInd PAT(Personal Access Token) under the accounts section in clarifai
-  const PAT = process.env.CLARIFAI_PAT;
+  const PAT = '5d04c89a3fe24cf9840631b0caf5b83d';
   const USER_ID = 'vishal_0719'; 
   const APP_ID = 'smart-brain';
   // Change these to whatever model and image URL you want to use
